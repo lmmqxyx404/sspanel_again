@@ -7,6 +7,7 @@ from configs.default.cron import task_schedule
 # set the default Django settings module for the 'celery' program.
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "configs")
 
+# 2. build the config.
 app = Celery("sspanel")
 
 # Using a string here means the worker doesn't have to serialize
