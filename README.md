@@ -9,6 +9,12 @@ Then use relative file to start the project.
 Pay attention that the poetry could require higher python version
 
 ```poetry install```
+### poetry details
+1. `poetry env use python`
+2. `poetry config --list`
+3. `poetry config virtualenvs.in-project true`
+4. `poetry shell`
+
 ## then install uwsgi
 
 # the vital element of the project
